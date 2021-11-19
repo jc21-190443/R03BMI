@@ -44,7 +44,7 @@ namespace R03BMI
 
                 if (bmi < 18.5)
                 {
-                    result.TextText = bmi + "低体重（瘦せ）";
+                    result.Text = bmi + "低体重（瘦せ）";
                 }
                 else if (bmi < 25)
                 {
