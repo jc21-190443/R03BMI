@@ -44,27 +44,27 @@ namespace R03BMI
 
                 if (bmi < 18.5)
                 {
-                    result.Text = bmi + "低体重（瘦せ）";
+                    result.Text ="BMI："+ bmi + "状態：　低体重（瘦せ）";
                 }
                 else if (bmi < 25)
                 {
-                    result.Text = bmi + "普通体重";
+                    result.Text = "BMI："+ bmi + "状態：　普通体重";
                 }
                 else if (bmi < 30)
                 {
-                    result.Text = bmi + "肥満（1度）";
+                    result.Text = "BMI："+ bmi + "状態：　肥満（1度）";
                 }
                 else if (bmi < 35)
                 {
-                    result.Text = bmi + "肥満（2度）";
+                    result.Text = "BMI：" + bmi + "状態：　肥満（2度）";
                 }
                 else if (bmi < 40)
                 {
-                    result.Text = bmi + "肥満（3度）";
+                    result.Text = "BMI：" + bmi + "状態：　肥満（3度）";
                 }
                 else if (bmi >= 40)
                 {
-                    result.Text = bmi + "肥満（4度）";
+                    result.Text = "BMI：" + bmi + "状態：　肥満（4度）";
                 }
             }catch (FormatException ex)
             {
